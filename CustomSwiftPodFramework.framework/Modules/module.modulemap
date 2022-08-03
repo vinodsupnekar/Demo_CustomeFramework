@@ -1,0 +1,11 @@
+framework module CustomSwiftPodFramework {
+  umbrella header "CustomSwiftPodFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomSwiftPodFramework.Swift {
+    header "CustomSwiftPodFramework-Swift.h"
+    requires objc
+}
